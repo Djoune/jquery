@@ -1,0 +1,39 @@
+/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {font-family:"STARWARS";
+    src: url("../fonts/STARWARS.ttf") format("truetype");
+}
+
+body {
+    font-family: STARWARS;
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-top: 100px;
+}
+
+#carousel {
+    position:relative;
+    height: 550px;
+    max-width: 980px;
+    overflow: hidden;
+}
+#carousel ul li {
+    list-style: none;
+}
+
+img {
+    height: 500px;
+}
+
+button {
+    position:relative;
+    top: -310px;
+    height: 70px;
+    width: 70px;
+}
+
+.next {
+    margin-left: 880px;
+}
